@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/** regole header **/
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/** regole container sinistro **/
+.containerH{
+    gap:15px;
+    
+}
+/** regole  **/
+
+/** regole  **/
