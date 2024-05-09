@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /** regole header **/
@@ -90,7 +91,12 @@ h1{
 }
 
 p{
+    position:relative;
     font-size: 30px;
 }
 
-
+#Proposta{
+    float: right;
+    width: 50%;
+    height: auto;
+}
