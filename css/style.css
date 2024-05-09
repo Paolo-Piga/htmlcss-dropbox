@@ -4,18 +4,93 @@
 }
 
 /** regole header **/
-
 header{
-    height: 70px;
+    
+    height: 90vh;
     width: 100%;
-    background-color: aquamarine;
+    background-color: white;
+    
+}
+
+/** regole containerall **/
+#containerall{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/** regole containerH **/
+.containerH{
+    display: flex;
+    gap:18px;
+    height: 100%;
+    width:30%;
+    font-size: 15px;
+    
+}
+
+#logo{
+    height: 50%;
+    width: auto;
+    margin: 2% 2%;
+}
+
+/** regole a **/
+a{
+    text-decoration: none;
+    color: black;
+    margin: 3% 2%;
+}
+
+/** regole Inizia **/
+.Inizia{
+    background-color: rgb(57, 57, 255);
+    color: white;
+    padding: 7px 9px;
+    margin-top: 2.2%;
 }
 
 /** regole container sinistro **/
-.containerH{
-    gap:15px;
+#left{
+    
     
 }
-/** regole  **/
 
-/** regole  **/
+/** regole container destro **/
+#right{
+   justify-content: end;
+   
+}
+
+/** regole jumbotron **/
+#jumbotroncontainer{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+}
+
+#jumbo{
+    height: 95%;
+    width: 70%;
+    background-color: blueviolet;
+    text-align: left;
+}
+
+
+h1{
+    margin-top: 5%;
+    font-size: 50px;
+    
+}
+
+p{
+    font-size: 30px;
+}
+
+
