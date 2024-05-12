@@ -1,21 +1,81 @@
 /** regole main **/
 main{
-    display: flex;
-    width: 100%;
+    /* display: flex; */
+    /* width: 100%; */
     background-color: white;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* gap: 50px; */
+}
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+/** regole sections **/
+.Cont-Promo,.Cont-Buttons,.Cont-Business,.Cont-Team,.Cont-Enterprise,.Cont-Partner,.Cont-Multi-Operations,.Cont-500k{
+    /* width: 70%; */
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-/** regole **/
-section.BusinessPlanText{
+/** regole Fattura **/
+.Fattura{
+    
     width: 70%;
-    height: 10%;
-    background-color: black;
+    height: 20vh;
+    background-color: red;
+}
+/** regole Business Plan **/
+.BusinessPlan{
+    width: 70%;
+    height: 80vh;
+    background-color: green;
 }
 
-/** regole **/
+/** regole B Plan Text **/
+.Business-Plan-Text{
+    
+    width: 70%;
+    height: 20vh;
+    background-color: black;
 
-/** regole **/
+}
+/** regole Team **/
+.Team{ 
+    width: 70%;
+    height: 10vh;
+    background-color: aqua;
+}
 
+/** regole Enterprise**/
+.Enterprise{
+    width: 70%;
+    height: 40vh;
+    background-color: yellowgreen;
+}
+/** regole Partner**/
+.Partner{
+    width: 70%;
+    height: 50vh;
+    background-color: brown;
+}
+/** regole Multi-Operations**/
+.Multi-Operations{
+    width: 70%;
+    height: 80vh;
+    background-color: green;
+}
+/** regole 500k**/
+.D500k{
+    width: 70%;
+    height: 30vh;
+    background-color: black;
+}
 /** regole **/
-
+/** regole **/
+/** regole **/
+/** regole **/
 /** regole **/
