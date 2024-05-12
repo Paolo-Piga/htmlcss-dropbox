@@ -68,14 +68,35 @@ main{
     height: 80vh;
     background-color: green;
 }
-/** regole 500k**/
+/** regole D500k**/
 .D500k{
     width: 70%;
     height: 30vh;
     background-color: black;
 }
+/** regole Container Brands**/
+.Container-Brands{
+    width: 100%;
+    height: 60vh;
+    background-color: red;
+}
+/** regole Designit**/
+.Designit{
+
+}
+/** regole **/
+/** regole Container-Dbox-Azienda**/
+.Cont-Dbox-Azienda{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(119, 205, 255);
+}
+
+/** regole Faq**/
+.Contatti{
+
+}
+
 /** regole **/
 /** regole **/
-/** regole **/
-/** regole **/
-/** regole **/
+
