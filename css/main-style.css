@@ -51,15 +51,58 @@ input{
 .BusinessPlan{
     display: flex;
     justify-content: space-between;
-    width: calc(70%/3);
+    width: calc(2100px/3);
     height: 80vh;
-    background-color: green;
+    
+    gap: 50px;
 }
 
 .BPlans{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     height: 100%;
-    width: calc(70%3);
-    background-color: black;
+    width: 33%;
+    background-color: white;
+    border: 1px solid black;
+    
+    
+}
+
+.cost,h3,.month,.Folder,.N-utenti,.Share{
+    padding: 10px;
+}
+
+.container-BPlans{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    
+}
+.linetta{
+    margin-bottom: 1px solid black;
+}
+
+.plan-type{
+    
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 5%;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    
+}
+
+.Free-Try{
+    font-size: 10px;
+    padding: 8px;
+    background-color: rgb(19, 42, 255);
+    text-decoration: none;
+    color: white;
 }
 
 /** regole B Plan Text **/
