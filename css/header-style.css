@@ -39,17 +39,17 @@ section.jumbo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgba(130, 240, 255, 0.76);
 }
 
 div.jumbo {
     height: 95%;
     width: 70%;
-    background-color: blueviolet;
+    
 }
 
 h1{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 p{
@@ -59,15 +59,15 @@ p{
 .sinistra{
     
     height: 70%;
-    width: 30%;
-    background-color: rgb(255, 255, 255);
+    width: 40%;
+    
 }
 
 .destra{
     
     height: 70%;
-    width: 70%;
-    background-color: rgb(255, 0, 0);
+    width: 100%;
+    
 }
 
 .flexbox{
@@ -77,6 +77,18 @@ p{
     
 }
 
-#free{
-    
+#Free{
+    padding: 10px;
+    background-color: rgb(19, 42, 255);
+    text-decoration: none;
+    color: white;
+}
+
+#Proposta-Img{
+    height: 120%;
+    width: 80%;
+}
+
+#arrow{
+    font-size: 70px;
 }

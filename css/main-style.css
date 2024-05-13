@@ -23,12 +23,59 @@ main{
 }
 /** regole Fattura **/
 .Fattura{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
     width: 70%;
     height: 20vh;
-    background-color: red;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
+
+.Fatt-text{
+    color: black;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.Fattura:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+.Fattura input:checked ~ .checkmark{
+    background-color:#2196F3;
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.Fattura input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.Fattura .checkmark:after{
+    top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
 /** regole Business Plan **/
+
 .BusinessPlan{
     width: 70%;
     height: 80vh;
@@ -37,10 +84,11 @@ main{
 
 /** regole B Plan Text **/
 .Business-Plan-Text{
-    
+    display: flex;
+    align-items: flex-end;
     width: 70%;
     height: 20vh;
-    background-color: black;
+    font-size: 25px;
 
 }
 /** regole Team **/
