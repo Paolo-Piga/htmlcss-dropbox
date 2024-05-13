@@ -49,9 +49,17 @@ input{
 /** regole Business Plan **/
 
 .BusinessPlan{
-    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    width: calc(70%/3);
     height: 80vh;
     background-color: green;
+}
+
+.BPlans{
+    height: 100%;
+    width: calc(70%3);
+    background-color: black;
 }
 
 /** regole B Plan Text **/
