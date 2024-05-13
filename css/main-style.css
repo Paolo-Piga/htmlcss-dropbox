@@ -1,11 +1,8 @@
 /** regole main **/
 main{
-    /* display: flex; */
-    /* width: 100%; */
+    margin-top: 50px;
     background-color: white;
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* gap: 50px; */
+   
 }
 
 .container {
@@ -15,7 +12,7 @@ main{
 
 /** regole sections **/
 .Cont-Promo,.Cont-Buttons,.Cont-Business,.Cont-Team,.Cont-Enterprise,.Cont-Partner,.Cont-Multi-Operations,.Cont-500k{
-    /* width: 70%; */
+    
     min-height: 50px;
     display: flex;
     justify-content: center;
@@ -51,26 +48,60 @@ input{
 .BusinessPlan{
     display: flex;
     justify-content: space-between;
-    width: calc(2100px/3);
-    height: 80vh;
+    width: calc(2500px/3);
+    height: 100vh;
     
-    gap: 50px;
+    gap: 30px;
 }
 
+/**regole business plan**/
 .BPlans{
     display: flex;
     flex-direction: column;
     gap: 10px;
     height: 100%;
-    width: 33%;
+    width: 100%;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid grey;
     
     
 }
 
-.cost,h3,.month,.Folder,.N-utenti,.Share{
+/**Container parte superiore del Business Plan**/
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     padding: 10px;
+    
+}
+
+h3{
+    font-size: 20px;
+}
+
+.cost{
+    font-size: 13px;
+}
+
+.month{
+    color: grey;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.intermediate{
+    padding: 20px;
+}
+.end{
+    
 }
 
 .container-BPlans{
@@ -79,9 +110,10 @@ input{
     padding: 5px;
     
 }
-.linetta{
+
+/**.linetta{
     margin-bottom: 1px solid black;
-}
+}**/
 
 .plan-type{
     
@@ -92,17 +124,18 @@ input{
     width: 100%;
     height: 5%;
     font-size: 12px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     padding: 5px;
     
 }
 
 .Free-Try{
-    font-size: 10px;
+    font-size: 12px;
     padding: 8px;
     background-color: rgb(19, 42, 255);
     text-decoration: none;
     color: white;
+    margin: 10px;
 }
 
 /** regole B Plan Text **/
@@ -112,7 +145,7 @@ input{
     width: 70%;
     height: 20vh;
     font-size: 25px;
-
+    
 }
 /** regole Team **/
 .Team{ 
