@@ -35,6 +35,7 @@ input{
     
 }
 
+
 .monthly{
     padding-right: 20px;
 }
@@ -49,7 +50,7 @@ input{
     display: flex;
     justify-content: space-between;
     width: calc(2500px/3);
-    height: 100vh;
+    height: 80vh;
     
     gap: 30px;
 }
@@ -97,13 +98,39 @@ h3{
     padding-bottom: 20px;
 }
 
-.intermediate{
-    padding: 20px;
+.intermediate.medio{
+    padding-top: 5px;
 }
-.end{
+
+.intermediate.destro{
+    padding-top: 5px;
+}
+.N-utenti, .Folder, .Share{
+    font-size: 15px;
     
 }
 
+.intermediate{
+    padding: 20px 10px;
+    
+}
+
+
+.end{
+    padding: 20px 10px;
+    padding-top: 10px;
+}
+
+.fa-check{
+    color: blue;
+    font-size: 13px;
+    
+}
+
+.check-text{
+    color: black;
+    font-size: 13px;
+}
 .container-BPlans{
     height: 100%;
     width: 100%;
@@ -125,7 +152,7 @@ h3{
     height: 5%;
     font-size: 12px;
     border-bottom: 1px solid grey;
-    padding: 5px;
+    padding: 13px 5px;
     
 }
 
@@ -135,7 +162,7 @@ h3{
     background-color: rgb(19, 42, 255);
     text-decoration: none;
     color: white;
-    margin: 10px;
+    
 }
 
 /** regole B Plan Text **/
