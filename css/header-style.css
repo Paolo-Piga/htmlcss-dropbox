@@ -52,7 +52,12 @@ h1{
     font-size: 70px;
 }
 
-
+.flexbox{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    
+}
 
 .sinistra{
     display: flex;
@@ -71,12 +76,7 @@ h1{
     
 }
 
-.flexbox{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    
-}
+
 
 .Free{
     padding: 10px;
