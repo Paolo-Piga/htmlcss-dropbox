@@ -11,7 +11,7 @@ main{
 }
 
 /** regole sections **/
-.Cont-Promo,.Cont-Buttons,.Cont-Business,.Cont-Team,.Cont-Enterprise,.Cont-Partner,.Cont-Multi-Operations,.Cont-500k{
+.Cont-Promo,.Cont-Buttons,.Cont-Business,.Cont-Team,.Cont-Partner,.Cont-Multi-Operations,.Cont-500k{
     
     min-height: 50px;
     display: flex;
@@ -140,6 +140,7 @@ h3{
     padding-top: 10px;
 }
 
+/**regole check**/
 .fa-check{
     color: blue;
     font-size: 13px;
@@ -157,8 +158,7 @@ h3{
     
 }
 
-
-
+/** regole free try **/
 .Free-Try{
     font-size: 12px;
     padding: 8px;
@@ -190,7 +190,7 @@ h3{
     border:1px solid grey;
 
 }
-
+/** regole plan type-team**/
 .plan-type-Team{
     display: flex;
     background-color: white;
@@ -201,6 +201,7 @@ h3{
     border-bottom: 1px solid grey;
 }
 
+/** regole flexbox (team) **/
 .flexbox-team{
     width: 100%;
     height: 86%;
@@ -209,6 +210,7 @@ h3{
     
 }
 
+/** regole container sinistro **/
 .sinistra-Team{
     background-color: white;
     height: 100%;
@@ -227,6 +229,7 @@ h3{
     color: grey;
 }
 
+/** regole container destor**/
 .destra-Team>a{
     display: flex;
     justify-content: center;
@@ -249,23 +252,83 @@ h3{
     
 }
 
-/** regole Enterprise**/
-.Enterprise{
-    width: 70%;
-    height: 40vh;
-    background-color: yellowgreen;
-}
+
 /** regole Partner**/
 .Partner{
-    width: 70%;
+    display: flex;
+    width: 83%;
     height: 50vh;
-    background-color: brown;
+     
+}
+
+.sinistra-partner{
+    
+    height: 100%;
+    width: 60%;
+}
+
+.sinistra-partner>img{
+    width: 100%;
+    height: 90%;
+}
+
+.destra-partner{
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: white;
+    height: 100%;
+    width: 40%;
+}
+
+.destra-partner>h3{
+    font-size: 22px;
+    padding: 20px 40px;
+}
+
+.destra-partner>p{
+    font-size: 15px;
+    padding: 20px 40px;
+}
+
+.destra-partner>a{
+    text-decoration: none;
+    padding: 10px;
+    border:1px solid black;
+    width: 45%;
+    margin-left: 40px;
 }
 /** regole Multi-Operations**/
 .Multi-Operations{
-    width: 70%;
+    width: 83%;
     height: 80vh;
     background-color: green;
+}
+
+.Multi-Operations>h1{
+    font-size: 37px;
+    width: 100%;
+    height: 7%;
+}
+
+.Multi-Operations>div{
+    background-color: white;
+    height: 93%;
+    width: 100%;
+}
+
+.Multi-image{
+    width: calc(100%/6);
+    height: 100%;
+    gap: 15px;
+}
+
+
+
+.image-text>img{
+    width: 30%;
+    height: 30%;
 }
 /** regole D500k**/
 .D500k{
