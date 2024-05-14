@@ -303,33 +303,30 @@ h3{
 .Multi-Operations{
     width: 83%;
     height: 80vh;
-    background-color: green;
+    display: flex;
+    gap: 40px;
+    flex-wrap:wrap;
 }
 
-.Multi-Operations>h1{
-    font-size: 37px;
-    width: 100%;
-    height: 7%;
+.title-operations>h1{
+    font-size: 40px;
+    padding-bottom: 50px;
 }
 
-.Multi-Operations>div{
-    background-color: white;
-    height: 93%;
-    width: 100%;
+.switching-elements>h1{
+    font-size: 15px;
 }
 
-.Multi-image{
-    width: calc(100%/6);
-    height: 100%;
-    gap: 15px;
-}
-
-
-
-.image-text>img{
+.switching-elements{
     width: 30%;
-    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 }
+
+
+
 /** regole D500k**/
 .D500k{
     width: 70%;
